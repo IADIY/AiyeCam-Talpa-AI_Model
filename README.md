@@ -1,4 +1,7 @@
 # Setup
+**AiyeCam-Talpa-AI_Model** offers examples for integrating AiyeCam-Talpa with AI applications. 
+Please refer to the instruction below and the quick tutorial over here: https://github.com/IADIY/AiyeCam-Talpa_Basic_Devkit.
+
 To set up the SDK and prepare for use, follow these steps:
 
 ## 1. Execute the setup script:
