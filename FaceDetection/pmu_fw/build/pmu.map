@@ -1,0 +1,474 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(start.o)
+                              (_start)
+/home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o)
+                              /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(start.o) (main)
+/home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_rtc.o)
+                              /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o) (rtc_get_status)
+/home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(interrupt.o)
+                              /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o) (irq_init)
+/home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+                              /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o) (pmu_response)
+/home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(power_mode.o)
+                              /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o) (pmu_power_mode)
+/home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_i2c.o)
+                              /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o) (i2c_read)
+/home/albert/AIModel/nbsdk/toolchains/riscv-ec-toolchain/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(muldi3.o)
+                              /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_i2c.o) (__mulsi3)
+/home/albert/AIModel/nbsdk/toolchains/riscv-ec-toolchain/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(div.o)
+                              /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_i2c.o) (__divsi3)
+
+Allocating common symbols
+Common symbol       size              file
+
+pmu_debug           0x4               /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /home/albert/AIModel/FaceDetection/pmu_fw/build/main.o
+ .data          0x0000000000000000        0x0 /home/albert/AIModel/FaceDetection/pmu_fw/build/main.o
+ .bss           0x0000000000000000        0x0 /home/albert/AIModel/FaceDetection/pmu_fw/build/main.o
+ .data          0x0000000000000000        0x0 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(start.o)
+ .bss           0x0000000000000000        0x0 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(start.o)
+ .text          0x0000000000000000        0x0 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o)
+ .data          0x0000000000000000        0x0 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o)
+ .bss           0x0000000000000000        0x0 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o)
+ .text.irq_ipir_callback
+                0x0000000000000000        0x2 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o)
+ .text.irq_epir_callback
+                0x0000000000000000        0x2 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o)
+ .text.irq_rtc_callback
+                0x0000000000000000        0x2 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o)
+ .text.pmu_fw_init_user
+                0x0000000000000000        0x2 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o)
+ .text.pmu_fw_process_loop
+                0x0000000000000000        0x2 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o)
+ .text.pmu_fw_process_sleep_loop
+                0x0000000000000000        0x2 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o)
+ .text.pmu_fw_process_command_test
+                0x0000000000000000       0xa6 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o)
+ .text          0x0000000000000000        0x0 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_rtc.o)
+ .data          0x0000000000000000        0x0 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_rtc.o)
+ .bss           0x0000000000000000        0x0 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_rtc.o)
+ .text.rtc_get_raw_status
+                0x0000000000000000        0x8 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_rtc.o)
+ .text.rtc_read_count
+                0x0000000000000000        0x8 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_rtc.o)
+ .text.rtc_reset
+                0x0000000000000000       0x22 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_rtc.o)
+ .text          0x0000000000000000        0x0 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(interrupt.o)
+ .data          0x0000000000000000        0x0 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(interrupt.o)
+ .bss           0x0000000000000000        0x0 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(interrupt.o)
+ .text.def_int_handler
+                0x0000000000000000        0x2 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(interrupt.o)
+ .text.irq_remove_handler
+                0x0000000000000000       0x26 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(interrupt.o)
+ .text          0x0000000000000000        0x0 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+ .data          0x0000000000000000        0x0 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+ .bss           0x0000000000000000        0x0 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+ .text.pmu_handle_write_reg
+                0x0000000000000000       0x3a /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+ .text.pmu_handle_read_reg
+                0x0000000000000000       0x3a /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+ .text.pmu_handle_wfi
+                0x0000000000000000       0x66 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+ .text          0x0000000000000000        0x0 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(power_mode.o)
+ .data          0x0000000000000000        0x0 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(power_mode.o)
+ .bss           0x0000000000000000        0x0 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(power_mode.o)
+ .text.pm_feature_flag_set
+                0x0000000000000000        0xa /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(power_mode.o)
+ .text.pm_feature_flag_get
+                0x0000000000000000        0xa /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(power_mode.o)
+ .text.pmu_power_mode_sleep_user_pre
+                0x0000000000000000        0x2 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(power_mode.o)
+ .text.pmu_power_mode_sleep_user_post
+                0x0000000000000000        0x2 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(power_mode.o)
+ .text          0x0000000000000000        0x0 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_i2c.o)
+ .data          0x0000000000000000        0x0 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_i2c.o)
+ .bss           0x0000000000000000        0x0 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_i2c.o)
+ .text.dw_i2c_wait_for_bb
+                0x0000000000000000       0x2e /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_i2c.o)
+ .text.dw_i2c_xfer_finish
+                0x0000000000000000       0x46 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_i2c.o)
+ .text.dw_i2c_set_slave_address
+                0x0000000000000000       0x38 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_i2c.o)
+ .text.i2c_init
+                0x0000000000000000      0x140 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_i2c.o)
+ .text.i2c_read
+                0x0000000000000000       0xc6 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_i2c.o)
+ .text.i2c_write
+                0x0000000000000000       0x84 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_i2c.o)
+ .text.i2c_write_reg
+                0x0000000000000000       0x2a /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_i2c.o)
+ .text.i2c_read_reg
+                0x0000000000000000       0x1a /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_i2c.o)
+ .bss.i2c_dev   0x0000000000000000       0x10 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_i2c.o)
+ .sdata.p_i2c_dev
+                0x0000000000000000        0x4 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_i2c.o)
+ .debug_info    0x0000000000000000      0xb63 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_i2c.o)
+ .debug_abbrev  0x0000000000000000      0x37f /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_i2c.o)
+ .debug_loc     0x0000000000000000      0xb9f /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_i2c.o)
+ .debug_aranges
+                0x0000000000000000       0x58 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_i2c.o)
+ .debug_ranges  0x0000000000000000      0x1e8 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_i2c.o)
+ .debug_line    0x0000000000000000      0xbd2 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_i2c.o)
+ .debug_str     0x0000000000000000      0x4aa /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_i2c.o)
+ .comment       0x0000000000000000       0x12 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_i2c.o)
+ .debug_frame   0x0000000000000000       0xf4 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_i2c.o)
+ .text          0x0000000000000000       0x18 /home/albert/AIModel/nbsdk/toolchains/riscv-ec-toolchain/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(muldi3.o)
+ .data          0x0000000000000000        0x0 /home/albert/AIModel/nbsdk/toolchains/riscv-ec-toolchain/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(muldi3.o)
+ .bss           0x0000000000000000        0x0 /home/albert/AIModel/nbsdk/toolchains/riscv-ec-toolchain/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(muldi3.o)
+ .debug_line    0x0000000000000000       0x93 /home/albert/AIModel/nbsdk/toolchains/riscv-ec-toolchain/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(muldi3.o)
+ .debug_info    0x0000000000000000       0x26 /home/albert/AIModel/nbsdk/toolchains/riscv-ec-toolchain/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(muldi3.o)
+ .debug_abbrev  0x0000000000000000       0x14 /home/albert/AIModel/nbsdk/toolchains/riscv-ec-toolchain/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(muldi3.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /home/albert/AIModel/nbsdk/toolchains/riscv-ec-toolchain/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(muldi3.o)
+ .debug_str     0x0000000000000000       0xbd /home/albert/AIModel/nbsdk/toolchains/riscv-ec-toolchain/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(muldi3.o)
+ .text          0x0000000000000000       0x80 /home/albert/AIModel/nbsdk/toolchains/riscv-ec-toolchain/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(div.o)
+ .data          0x0000000000000000        0x0 /home/albert/AIModel/nbsdk/toolchains/riscv-ec-toolchain/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(div.o)
+ .bss           0x0000000000000000        0x0 /home/albert/AIModel/nbsdk/toolchains/riscv-ec-toolchain/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(div.o)
+ .debug_line    0x0000000000000000      0x169 /home/albert/AIModel/nbsdk/toolchains/riscv-ec-toolchain/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(div.o)
+ .debug_info    0x0000000000000000       0x26 /home/albert/AIModel/nbsdk/toolchains/riscv-ec-toolchain/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(div.o)
+ .debug_abbrev  0x0000000000000000       0x14 /home/albert/AIModel/nbsdk/toolchains/riscv-ec-toolchain/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(div.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /home/albert/AIModel/nbsdk/toolchains/riscv-ec-toolchain/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(div.o)
+ .debug_str     0x0000000000000000       0xba /home/albert/AIModel/nbsdk/toolchains/riscv-ec-toolchain/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(div.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ram              0x0000000000000000 0x0000000000000e00
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/albert/AIModel/FaceDetection/pmu_fw/build/main.o
+LOAD /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a
+LOAD /home/albert/AIModel/nbsdk/toolchains/riscv-ec-toolchain/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a
+
+.vectors        0x0000000000000000       0x88
+                0x0000000000000000                . = ALIGN (0x4)
+                0x0000000000000000                __irq_vector_base = .
+ *(.vectors)
+ .vectors       0x0000000000000000       0x88 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(start.o)
+                0x0000000000000080                _start
+
+.text           0x0000000000000088      0x8b8
+                0x0000000000000088                . = ALIGN (0x4)
+                0x0000000000000088                _stext = .
+ *(.text)
+ .text          0x0000000000000088       0x2c /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(start.o)
+ *(.text.*)
+ .text.pmu_fw_init_user
+                0x00000000000000b4        0x2 /home/albert/AIModel/FaceDetection/pmu_fw/build/main.o
+                0x00000000000000b4                pmu_fw_init_user
+ .text.pmu_fw_process_loop
+                0x00000000000000b6        0x2 /home/albert/AIModel/FaceDetection/pmu_fw/build/main.o
+                0x00000000000000b6                pmu_fw_process_loop
+ .text.pmu_fw_process_sleep_loop
+                0x00000000000000b8        0x2 /home/albert/AIModel/FaceDetection/pmu_fw/build/main.o
+                0x00000000000000b8                pmu_fw_process_sleep_loop
+ .text.irq_rtc_callback
+                0x00000000000000ba        0x2 /home/albert/AIModel/FaceDetection/pmu_fw/build/main.o
+                0x00000000000000ba                irq_rtc_callback
+ .text.irq_epir_callback
+                0x00000000000000bc        0x2 /home/albert/AIModel/FaceDetection/pmu_fw/build/main.o
+                0x00000000000000bc                irq_epir_callback
+ .text.irq_ipir_callback
+                0x00000000000000be        0x2 /home/albert/AIModel/FaceDetection/pmu_fw/build/main.o
+                0x00000000000000be                irq_ipir_callback
+ .text.pmu_power_mode_sleep_user_pre
+                0x00000000000000c0        0x2 /home/albert/AIModel/FaceDetection/pmu_fw/build/main.o
+                0x00000000000000c0                pmu_power_mode_sleep_user_pre
+ .text.pmu_power_mode_sleep_user_post
+                0x00000000000000c2        0x2 /home/albert/AIModel/FaceDetection/pmu_fw/build/main.o
+                0x00000000000000c2                pmu_power_mode_sleep_user_post
+ .text.memset   0x00000000000000c4       0x14 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o)
+                0x00000000000000c4                memset
+ .text.mdelay   0x00000000000000d8       0x24 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o)
+                0x00000000000000d8                mdelay
+ .text.ipir_int_handler
+                0x00000000000000fc       0x8a /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o)
+ .text.epir_int_handler
+                0x0000000000000186       0x8e /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o)
+ .text.rtc_int_handler
+                0x0000000000000214       0x9c /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o)
+ .text.pmu_fw_init
+                0x00000000000002b0       0x38 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o)
+                0x00000000000002b0                pmu_fw_init
+ .text.pmu_fw_process_command_standard
+                0x00000000000002e8       0x9e /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o)
+                0x00000000000002e8                pmu_fw_process_command_standard
+ .text.pmu_fw_process_command
+                0x0000000000000386        0x2 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o)
+                0x0000000000000386                pmu_fw_process_command
+ .text.startup.main
+                0x0000000000000388       0x68 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o)
+                0x0000000000000388                main
+ .text.rtc_get_status
+                0x00000000000003f0        0x8 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_rtc.o)
+                0x00000000000003f0                rtc_get_status
+ .text.rtc_clear_interrupt
+                0x00000000000003f8        0x8 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_rtc.o)
+                0x00000000000003f8                rtc_clear_interrupt
+ .text.rtc_set_count
+                0x0000000000000400        0x8 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_rtc.o)
+                0x0000000000000400                rtc_set_count
+ .text.rtc_set_match_count
+                0x0000000000000408        0x8 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_rtc.o)
+                0x0000000000000408                rtc_set_match_count
+ .text.rtc_int_mask
+                0x0000000000000410       0x1c /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_rtc.o)
+                0x0000000000000410                rtc_int_mask
+ .text.rtc_int_enable
+                0x000000000000042c       0x1a /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_rtc.o)
+                0x000000000000042c                rtc_int_enable
+ .text.rtc_set_syn
+                0x0000000000000446        0x8 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_rtc.o)
+                0x0000000000000446                rtc_set_syn
+ .text.rtc_clock_driving
+                0x000000000000044e       0x1e /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_rtc.o)
+                0x000000000000044e                rtc_clock_driving
+ .text.irq_gen_irq_entry.constprop.0
+                0x000000000000046c       0x2e /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(interrupt.o)
+ .text.irq_init
+                0x000000000000049a       0x12 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(interrupt.o)
+                0x000000000000049a                irq_init
+ .text.irq_cpu_disable
+                0x00000000000004ac        0x6 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(interrupt.o)
+                0x00000000000004ac                irq_cpu_disable
+ .text.irq_cpu_enable
+                0x00000000000004b2        0x8 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(interrupt.o)
+                0x00000000000004b2                irq_cpu_enable
+ .text.irq_ext_enable
+                0x00000000000004ba        0xe /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(interrupt.o)
+                0x00000000000004ba                irq_ext_enable
+ .text.irq_ext_disable
+                0x00000000000004c8        0xe /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(interrupt.o)
+                0x00000000000004c8                irq_ext_disable
+ .text.irq_ext_clear
+                0x00000000000004d6        0xe /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(interrupt.o)
+                0x00000000000004d6                irq_ext_clear
+ .text.irq_install_handler
+                0x00000000000004e4       0x18 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(interrupt.o)
+                0x00000000000004e4                irq_install_handler
+ .text.pmu_response
+                0x00000000000004fc       0x2a /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+                0x00000000000004fc                pmu_response
+ .text.init_ptr
+                0x0000000000000526       0x7c /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+                0x0000000000000526                init_ptr
+ .text.pmu_handle_set_wakeup_single
+                0x00000000000005a2      0x160 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+                0x00000000000005a2                pmu_handle_set_wakeup_single
+ .text.pmu_handle_set_wakeup
+                0x0000000000000702       0x2c /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+                0x0000000000000702                pmu_handle_set_wakeup
+ .text.debugSet
+                0x000000000000072e       0x10 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+                0x000000000000072e                debugSet
+ .text.debugGet
+                0x000000000000073e        0x8 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+                0x000000000000073e                debugGet
+ .text.pd_analog_power
+                0x0000000000000746       0xbe /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(power_mode.o)
+                0x0000000000000746                pd_analog_power
+ .text.pmu_power_mode_active_user
+                0x0000000000000804        0x2 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(power_mode.o)
+                0x0000000000000804                pmu_power_mode_active_user
+ .text.pmu_power_mode_sleep
+                0x0000000000000806       0xd8 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(power_mode.o)
+                0x0000000000000806                pmu_power_mode_sleep
+ .text.pmu_power_mode_active
+                0x00000000000008de       0x22 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(power_mode.o)
+                0x00000000000008de                pmu_power_mode_active
+ .text.pmu_power_mode
+                0x0000000000000900       0x3e /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(power_mode.o)
+                0x0000000000000900                pmu_power_mode
+ *(.lit)
+ *(.shdata)
+ *(.rodata)
+ *(.rodata.*)
+ *(.srodata)
+ *(.srodata.*)
+ *(.eh_frame*)
+ *(.sdata2*)
+                0x0000000000000940                . = ALIGN (0x10)
+ *fill*         0x000000000000093e        0x2 
+                0x0000000000000940                _etext = .
+
+.rela.dyn       0x0000000000000940        0x0
+ .rela.text     0x0000000000000940        0x0 /home/albert/AIModel/FaceDetection/pmu_fw/build/main.o
+ .rela.text.pmu_fw_process_command_standard
+                0x0000000000000940        0x0 /home/albert/AIModel/FaceDetection/pmu_fw/build/main.o
+ .rela.text.startup.main
+                0x0000000000000940        0x0 /home/albert/AIModel/FaceDetection/pmu_fw/build/main.o
+ .rela.text.pmu_handle_set_wakeup_single
+                0x0000000000000940        0x0 /home/albert/AIModel/FaceDetection/pmu_fw/build/main.o
+ .rela.text.pmu_handle_set_wakeup
+                0x0000000000000940        0x0 /home/albert/AIModel/FaceDetection/pmu_fw/build/main.o
+ .rela.text.debugSet
+                0x0000000000000940        0x0 /home/albert/AIModel/FaceDetection/pmu_fw/build/main.o
+ .rela.text.debugGet
+                0x0000000000000940        0x0 /home/albert/AIModel/FaceDetection/pmu_fw/build/main.o
+ .rela.text.pmu_power_mode_sleep
+                0x0000000000000940        0x0 /home/albert/AIModel/FaceDetection/pmu_fw/build/main.o
+ .rela.text.pmu_power_mode_active
+                0x0000000000000940        0x0 /home/albert/AIModel/FaceDetection/pmu_fw/build/main.o
+ .rela.text.pmu_power_mode
+                0x0000000000000940        0x0 /home/albert/AIModel/FaceDetection/pmu_fw/build/main.o
+
+.data           0x0000000000000940       0x10
+                0x0000000000000940                . = ALIGN (0x4)
+                0x0000000000000940                _sdata = .
+ *(.data)
+ *(.data.*)
+ *(.sdata)
+ *(.sdata.*)
+ .sdata.pm_feature_flag
+                0x0000000000000940        0x4 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+                0x0000000000000940                pm_feature_flag
+                0x0000000000000950                . = ALIGN (0x10)
+ *fill*         0x0000000000000944        0xc 
+                0x0000000000000950                _edata = .
+
+.bss            0x0000000000000950       0x44
+                0x0000000000000950                . = ALIGN (0x4)
+                0x0000000000000950                _bss_start = .
+ *(.bss)
+ *(.bss.*)
+ .bss.wakeup_counter
+                0x0000000000000950       0x10 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+                0x0000000000000950                wakeup_counter
+ .bss.wakeup_index
+                0x0000000000000960       0x10 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+                0x0000000000000960                wakeup_index
+ *(.sbss)
+ *(.sbss.*)
+ .sbss.pmu_ack  0x0000000000000970        0x4 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+                0x0000000000000970                pmu_ack
+ .sbss.pmu_cmd  0x0000000000000974        0x4 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+                0x0000000000000974                pmu_cmd
+ .sbss.pmu_data
+                0x0000000000000978        0x4 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+                0x0000000000000978                pmu_data
+ .sbss.pmu_event
+                0x000000000000097c        0x4 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+                0x000000000000097c                pmu_event
+ .sbss.pmu_state
+                0x0000000000000980        0x4 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+                0x0000000000000980                pmu_state
+ .sbss.pmu_wakeup
+                0x0000000000000984        0x4 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+                0x0000000000000984                pmu_wakeup
+ .sbss.request_power_mode
+                0x0000000000000988        0x4 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+                0x0000000000000988                request_power_mode
+ .sbss.rtc_max_count
+                0x000000000000098c        0x4 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+                0x000000000000098c                rtc_max_count
+ *(COMMON)
+ COMMON         0x0000000000000990        0x4 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+                0x0000000000000990                pmu_debug
+                0x0000000000000994                . = ALIGN (0x4)
+                0x0000000000000994                _bss_end = .
+
+.stack          0x0000000000000994      0x100
+                0x0000000000000994                . = ALIGN (0x4)
+                0x0000000000000994                stack_end = .
+                0x0000000000000a94                . = (. + 0x100)
+ *fill*         0x0000000000000994      0x100 
+                0x0000000000000a94                stack = .
+OUTPUT(/home/albert/AIModel/FaceDetection/pmu_fw/build/pmu.elf elf32-littleriscv)
+
+.debug_info     0x0000000000000000     0x266b
+ .debug_info    0x0000000000000000      0x2dd /home/albert/AIModel/FaceDetection/pmu_fw/build/main.o
+ .debug_info    0x00000000000002dd       0x22 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(start.o)
+ .debug_info    0x00000000000002ff      0x94d /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o)
+ .debug_info    0x0000000000000c4c      0x481 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_rtc.o)
+ .debug_info    0x00000000000010cd      0x5b4 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(interrupt.o)
+ .debug_info    0x0000000000001681      0x940 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+ .debug_info    0x0000000000001fc1      0x6aa /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(power_mode.o)
+
+.debug_abbrev   0x0000000000000000      0xcdb
+ .debug_abbrev  0x0000000000000000       0xde /home/albert/AIModel/FaceDetection/pmu_fw/build/main.o
+ .debug_abbrev  0x00000000000000de       0x12 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(start.o)
+ .debug_abbrev  0x00000000000000f0      0x2b8 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o)
+ .debug_abbrev  0x00000000000003a8      0x192 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_rtc.o)
+ .debug_abbrev  0x000000000000053a      0x277 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(interrupt.o)
+ .debug_abbrev  0x00000000000007b1      0x2dc /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+ .debug_abbrev  0x0000000000000a8d      0x24e /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(power_mode.o)
+
+.debug_aranges  0x0000000000000000      0x240
+ .debug_aranges
+                0x0000000000000000       0x20 /home/albert/AIModel/FaceDetection/pmu_fw/build/main.o
+ .debug_aranges
+                0x0000000000000020       0x28 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(start.o)
+ .debug_aranges
+                0x0000000000000048       0x70 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o)
+ .debug_aranges
+                0x00000000000000b8       0x70 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_rtc.o)
+ .debug_aranges
+                0x0000000000000128       0x68 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(interrupt.o)
+ .debug_aranges
+                0x0000000000000190       0x60 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+ .debug_aranges
+                0x00000000000001f0       0x50 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(power_mode.o)
+
+.debug_ranges   0x0000000000000000      0x290
+ .debug_ranges  0x0000000000000000       0x10 /home/albert/AIModel/FaceDetection/pmu_fw/build/main.o
+ .debug_ranges  0x0000000000000010       0x20 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(start.o)
+ .debug_ranges  0x0000000000000030       0x78 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o)
+ .debug_ranges  0x00000000000000a8       0x60 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_rtc.o)
+ .debug_ranges  0x0000000000000108       0xa0 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(interrupt.o)
+ .debug_ranges  0x00000000000001a8       0x80 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+ .debug_ranges  0x0000000000000228       0x68 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(power_mode.o)
+
+.debug_line     0x0000000000000000     0x2235
+ .debug_line    0x0000000000000000       0x7c /home/albert/AIModel/FaceDetection/pmu_fw/build/main.o
+ .debug_line    0x000000000000007c      0x170 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(start.o)
+ .debug_line    0x00000000000001ec      0x9dd /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o)
+ .debug_line    0x0000000000000bc9      0x333 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_rtc.o)
+ .debug_line    0x0000000000000efc      0x334 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(interrupt.o)
+ .debug_line    0x0000000000001230      0xa09 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+ .debug_line    0x0000000000001c39      0x5fc /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(power_mode.o)
+
+.debug_str      0x0000000000000000      0x8ec
+ .debug_str     0x0000000000000000      0x2ae /home/albert/AIModel/FaceDetection/pmu_fw/build/main.o
+                                        0x2e1 (size before relaxing)
+ .debug_str     0x00000000000002ae       0x7a /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(start.o)
+ .debug_str     0x0000000000000328      0x2c0 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o)
+                                        0x577 (size before relaxing)
+ .debug_str     0x00000000000005e8       0xb5 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_rtc.o)
+                                        0x353 (size before relaxing)
+ .debug_str     0x000000000000069d       0xfc /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(interrupt.o)
+                                        0x388 (size before relaxing)
+ .debug_str     0x0000000000000799       0x94 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+                                        0x4bc (size before relaxing)
+ .debug_str     0x000000000000082d       0xbf /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(power_mode.o)
+                                        0x469 (size before relaxing)
+
+.comment        0x0000000000000000       0x11
+ .comment       0x0000000000000000       0x11 /home/albert/AIModel/FaceDetection/pmu_fw/build/main.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000011       0x12 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o)
+ .comment       0x0000000000000011       0x12 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_rtc.o)
+ .comment       0x0000000000000011       0x12 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(interrupt.o)
+ .comment       0x0000000000000011       0x12 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+ .comment       0x0000000000000011       0x12 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(power_mode.o)
+
+.debug_frame    0x0000000000000000      0x638
+ .debug_frame   0x0000000000000000       0x90 /home/albert/AIModel/FaceDetection/pmu_fw/build/main.o
+ .debug_frame   0x0000000000000090      0x1fc /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o)
+ .debug_frame   0x000000000000028c       0xe8 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_rtc.o)
+ .debug_frame   0x0000000000000374       0xd0 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(interrupt.o)
+ .debug_frame   0x0000000000000444      0x10c /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+ .debug_frame   0x0000000000000550       0xe8 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(power_mode.o)
+
+.debug_loc      0x0000000000000000      0xab0
+ .debug_loc     0x0000000000000000      0x329 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(core.o)
+ .debug_loc     0x0000000000000329       0x84 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(cdl_rtc.o)
+ .debug_loc     0x00000000000003ad      0x2e5 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(interrupt.o)
+ .debug_loc     0x0000000000000692      0x304 /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(command.o)
+ .debug_loc     0x0000000000000996      0x11a /home/albert/AIModel/nbsdk/nbsdk/libs/lib_pm.a(power_mode.o)
