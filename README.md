@@ -1,13 +1,9 @@
 # Setup
 To set up the SDK and prepare for use, follow these steps:
 
-## 1. Download the SDK:
-Download the AiyeCam-Talpa-SDK https://drive.google.com/file/d/1A9zqGXgxTyUZky_cSemNg_FN1VOsNNYs/view?usp=sharing
-
-## 2. Download the SDK:
-Extract the downloaded ```nbsdk.tar.gz``` file using the following command:
+## 1. Execute the setup script:
 ```
-tar -zvxf nbsdk.tar.gz
+bash install.sh
 ```
 ## 3. Folder Structure:
 
